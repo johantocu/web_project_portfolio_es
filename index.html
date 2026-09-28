@@ -1,105 +1,311 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Johan Torres | Desarrollador Web</title>
     <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header>
-      <section class="profile">
-        <h1 class="profile_name">Johan Torres</h1>
-        <h4 class="profile_Subtitule">
-          Desarrollador Full-Stack Junior | TypeScript, React, Node.js
-        </h4>
-        <h4 class="profile_text">
-          Desarrollador web junior con experiencia práctica creando interfaces
-          limpias y responsivas con HTML, CSS, JavaScript y React, así como
-          implementando lógica básica de back-end. Ha trabajado en proyectos
-          formativos que siguen procesos reales de desarrollo, usando Git,
-          GitHub y Figma. Disfruta colaborar en equipo, mantener un código claro
-          y resolver problemas de forma estructurada. Motivada por seguir
-          aprendiendo, asumir nuevos retos y aprovechar oportunidades para
-          crecer como desarrollador.
-        </h4>
-        <nav class="profile_nav">
-          <ul class="profile_nav-links">
-            <li class="profile_nav-item">
-              <a class="profile_nav-link">Descargar CV</a>
-              <div class="profile_nav-form"></div>
-            </li>
-            <li class="profile_nav-item">
-              <a class="profile_nav-link">Enlace a GitHub</a>
-              <div class="profile_nav-form"></div>
-            </li>
-            <li class="profile_nav-item">
-              <a class="profile_nav-link">Enlace a GitHub</a>
-              <div class="Profile_nav-form"></div>
-            </li>
-          </ul>
-        </nav>
-        <img
-          class="profile_photo"
-          src="./images/Imagen Johan.jpeg"
-          alt="Profile photo"
-        />
-      </section>
-      <section class="skills">
-        <h2 class="skills_text">Habilidades y herramientas</h2>
-        <nav class="skills_nav">
-          <ul class="skills_nav-icons">
-            <li class="skills_nav-item">
-              <a
-                ><img
-                  class="skills_nav-icon"
-                  src="./images/html5_image.svg"
-                  alt="html5 image"
-              /></a>
-            </li>
-            <li class="skills_nav-item">
-              <a
-                ><img
-                  class="skills_nav-icon"
-                  src="./images/css_image.svg"
-                  alt="css image"
-              /></a>
-            </li>
-            <li class="skills_nav-item">
-              <a
-                ><img
-                  class="skills_nav-icon"
-                  src="./images/javascript_image.svg"
-                  alt="javascript image"
-              /></a>
-            </li>
-            <li class="skills_nav-item">
-              <a
-                ><img
-                  class="skills_nav-icon"
-                  src="./images/git_image.svg"
-                  alt="git image"
-              /></a>
-            </li>
-            <li class="skills_nav-item">
-              <a
-                ><img
-                  class="skills_nav-icon"
-                  src="./images/github_image.svg"
-                  alt="github image"
-              /></a>
-            </li>
-            <li class="skills_nav-item">
-              <a
-                ><img
-                  class="skills_nav-icon"
-                  src="./images/chatgpt_image.svg"
-                  alt="chatgpt image"
-              /></a>
-            </li>
-          </ul>
-        </nav>
-      </section>
+    <header class="header">
+      <div class="container">
+        <div class="hero__content">
+          <section class="hero">
+            <h1 class="hero__title">Johan Torres</h1>
+            <p class="hero__subtitle">
+              Desarrollador Full-Stack Junior | TypeScript, React, Node.js
+            </p>
+            <p class="hero__text">
+              Desarrollador web junior con experiencia práctica creando
+              interfaces limpias y responsivas con HTML, CSS, JavaScript y
+              React, así como implementando lógica básica de back-end. He
+              trabajado en proyectos formativos que siguen procesos reales de
+              desarrollo, usando Git, GitHub y Figma. Disfruto colaborar en
+              equipo, mantener un código claro y resolver problemas de forma
+              estructurada. Motivado por seguir aprendiendo, asumir nuevos retos
+              y aprovechar oportunidades para crecer como desarrollador.
+            </p>
+          </section>
+          <nav class="hero__nav">
+            <ul class="hero__links">
+              <li class="hero__item">
+                <a class="hero__link" href="./Johan-Torres-CV10.pdf" download
+                  >Descargar CV</a
+                >
+                <div class="hero__line"></div>
+              </li>
+              <li class="hero__item">
+                <a
+                  class="hero__link"
+                  href="https://github.com/johantocu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+                <div class="hero__line"></div>
+              </li>
+              <li class="hero__item">
+                <a class="hero__link" href="#contacto">Hablemos</a>
+                <div class="hero__line"></div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="hero__photo-wrap">
+          <div class="hero__glow"></div>
+          <img
+            class="hero__photo"
+            src="./images/Imagen Johan.jpeg"
+            alt="Foto de perfil de Johan Torres"
+          />
+        </div>
+      </div>
     </header>
+    <main class="projects">
+      <section class="technologies" id="habilidades">
+        <h2 class="technologies__title">Habilidades y herramientas</h2>
+
+        <ul class="technologies__list">
+          <li class="technologies__item">
+            <img
+              class="technologies__icon"
+              src="./images/html5_image.svg"
+              alt="Logo de HTML5"
+            />
+          </li>
+          <li class="technologies__item">
+            <img
+              class="technologies__icon"
+              src="./images/css_image.svg"
+              alt="Logo de CSS3"
+            />
+          </li>
+          <li class="technologies__item">
+            <img
+              class="technologies__icon"
+              src="./images/javascript_image.svg"
+              alt="Logo de JavaScript"
+            />
+          </li>
+          <li class="technologies__item">
+            <img
+              class="technologies__icon"
+              src="./images/git_image.svg"
+              alt="Logo de Git"
+            />
+          </li>
+          <li class="technologies__item">
+            <img
+              class="technologies__icon"
+              src="./images/github_image.svg"
+              alt="Logo de GitHub"
+            />
+          </li>
+          <li class="technologies__item">
+            <img
+              class="technologies__icon"
+              src="./images/chatgpt_image.svg"
+              alt="Logo de ChatGPT"
+            />
+          </li>
+        </ul>
+      </section>
+
+      <section class="projects__section" id="proyectos">
+        <h2 class="projects__title">Proyectos destacados</h2>
+        <div class="projects__list">
+          <article class="card">
+            <div class="card__image-coffeshop">
+              <ul class="card__icons">
+                <li class="card__item">
+                  <img
+                    class="card__icon"
+                    src="./images/html5_image.svg"
+                    alt="Logo de HTML5"
+                  />
+                </li>
+                <li class="card__item">
+                  <img
+                    class="card__icon"
+                    src="./images/css_image.svg"
+                    alt="Logo de CSS3"
+                  />
+                </li>
+              </ul>
+            </div>
+            <div class="card__block-coffeeshop">
+              <h3 class="card__title">Página web de una cafetería</h3>
+              <p class="card__text">
+                Desarrollo de una landing page responsiva para una cafetería
+                siguiendo un brief de diseño. Incluye estructura semántica,
+                maquetación con Flexbox, creación de secciones nuevas y un
+                formulario de contacto funcional. Logro: implementé desde cero
+                el diseño completo de la página, organicé el proyecto con buenas
+                prácticas y publiqué la versión final utilizando GitHub Pages.
+              </p>
+              <ul class="artifact__links">
+                <li class="artifact__link">
+                  <a
+                    class="artifact__button"
+                    href="https://johantocu.github.io/web_project_coffeeshop_es/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      class="artifact__image"
+                      src="./images/Union.svg"
+                      alt="Icono de enlace externo"
+                    />
+                    <span class="artifact__text">Demo en vivo</span>
+                  </a>
+                </li>
+                <li class="artifact__link artifact__link-modified">
+                  <a
+                    class="artifact__button artifact__button-modified"
+                    href="https://github.com/johantocu/web_project_coffeeshop_es"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      class="artifact__image artifact__image-modified"
+                      src="./images/github_image.svg"
+                      alt="Logo de GitHub"
+                    />
+                    <span class="artifact__text artifact__text-modified"
+                      >GitHub</span
+                    >
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__image-futplay">
+              <ul class="card__icons">
+                <li class="card__item">
+                  <img
+                    class="card__icon"
+                    src="./images/javascript_image.svg"
+                    alt="Logo de JavaScript"
+                  />
+                </li>
+                <li class="card__item">
+                  <img
+                    class="card__icon"
+                    src="./images/react.svg"
+                    alt="Logo de React"
+                  />
+                </li>
+              </ul>
+            </div>
+            <div class="card__block-futplay">
+              <h3 class="card__title">Aplicación Futplay</h3>
+              <p class="card__text">
+                Plataforma para reservar canchas de fútbol 5 y organizar
+                partidos en Bogotá y Soacha, construida con Next.js, TypeScript
+                y Supabase. La saqué adelante como product owner, apoyándome en
+                herramientas de IA para la implementación: definí el producto,
+                el modelo de datos, la integración de pagos y la identidad de
+                marca, y la llevé hasta producción. Es el proyecto que me llevó
+                a formarme a fondo en desarrollo web.
+              </p>
+              <ul class="artifact__links">
+                <li class="artifact__link">
+                  <a
+                    class="artifact__button"
+                    href="https://futplay-bay.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      class="artifact__image"
+                      src="./images/Union.svg"
+                      alt="Icono de enlace externo"
+                    />
+                    <span class="artifact__text">Demo en vivo</span>
+                  </a>
+                </li>
+                <li class="artifact__link artifact__link-modified">
+                  <a
+                    class="artifact__button artifact__button-modified"
+                    href="#"
+                  >
+                    <img
+                      class="artifact__image artifact__image-modified"
+                      src="./images/github_image.svg"
+                      alt="Logo de GitHub"
+                    />
+                    <span class="artifact__text artifact__text-modified"
+                      >GitHub</span
+                    >
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="contacto">
+      <div class="footer__glow"></div>
+      <h2 class="footer__title">Contacto</h2>
+      <a class="footer__email" href="mailto:johan.tocu@gmail.com"
+        >johan.tocu@gmail.com</a
+      >
+      <ul class="redes">
+        <li class="redes__item">
+          <a
+            class="redes__link"
+            href="https://www.linkedin.com/in/johan-torres-6aa140209"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="artifact__image"
+              src="./images/linkedin.svg"
+              alt="Perfil de LinkedIn"
+            />
+          </a>
+        </li>
+        <li class="redes__item">
+          <a
+            class="redes__link"
+            href="https://www.facebook.com/johan.torres.421.tu"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="artifact__image"
+              src="./images/facebook.svg"
+              alt="Perfil de Facebook"
+            />
+          </a>
+        </li>
+        <li class="redes__item">
+          <a
+            class="redes__link"
+            href="https://www.instagram.com/johantorres421tu/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="artifact__image"
+              src="./images/instagram.svg"
+              alt="Perfil de Instagram"
+            />
+          </a>
+        </li>
+        <li class="redes__item">
+          <a class="redes__link" href="#">
+            <img
+              class="artifact__image"
+              src="./images/twitter.svg"
+              alt="Icono de X (Twitter)"
+            />
+          </a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
